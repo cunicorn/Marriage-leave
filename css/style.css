@@ -4,13 +4,12 @@
 	margin-right: auto;
 }
 body{
-		width: 100%;
 	cursor: pointer;
+	position: relative;
 }
 /* <!-- 头部 --> */
 header{
 	cursor: pointer;
-	width: 100%;
 	height: 147px;
 }
 
@@ -21,7 +20,6 @@ header{
 
 /* <!-- 	header_bottom --> */
 .hed_bottom{
-	width: 100%;
 	height: 45px;
 	background-color:#FB4E7E;
 }
@@ -188,7 +186,7 @@ line-height: 45px;
 .hungong{
 	cursor: pointer;
 	position: absolute;
-	top:668px ;
+	top:680px ;
 height: 265px;
 }
 /* <!-- 婚庆公司_top--> */
@@ -481,13 +479,11 @@ margin-right:0px;
 
 /* <!-- footer --> */
 footer{
-	width: 100%;
 	height: 280px;
 	position: absolute;
 	top: 3250px;
 }
 .foot{
-	width: 100%;
 	height: 280px;
 	background-color: rgba(0, 0, 0, .1);
 	padding-top: 40px;
