@@ -1,0 +1,501 @@
+.gwidth{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body{
+		width: 100%;
+	cursor: pointer;
+}
+/* <!-- 头部 --> */
+header{
+	cursor: pointer;
+	width: 100%;
+	height: 147px;
+}
+
+/* <!-- 	header_top --> */
+.hed_top{
+	height: 102px;
+}
+
+/* <!-- 	header_bottom --> */
+.hed_bottom{
+	width: 100%;
+	height: 45px;
+	background-color:#FB4E7E;
+}
+.hed_bottom_ul{
+	height: 100%;
+}
+.hed_bottom_ul .rr{
+		  position: relative;
+	float: left;
+	color: #fff;
+	font-weight: bold;
+line-height: 45px;
+text-align: center;
+margin-right: 25px;
+}
+.hed_bottom_ul .hh{
+	margin-left: 5px;
+}
+.hed_bottom_ul .zz{
+	float: right;
+}
+
+.hed_bottom_ul .rr:hover{
+	background-color: #fff;
+	color: rgba(0, 0, 0, .4);
+
+}
+ .hed_bottom_ul .rr .sds{
+	width: 80px;
+	height: 45px;
+	overflow: hidden;
+}
+.hed_bottom ol{
+position: absolute;
+top: 45px;
+left:0px;
+	width: 100%;
+display: none;
+}
+
+.hed_bottom_ul .rr ol li{
+	font-size: 12px;
+	line-height: 45px;
+	text-align: center;
+	background-color: #fff;
+
+}
+.liu1{
+	position: relative;
+	z-index: 9;
+}
+
+.hed_bottom_ul .rr ol li:hover{
+	color:red;
+margin-top: -3px;
+border: 1px solid red;
+border-radius: 5px;
+}
+/* <!-- 内容 --> */
+
+/* banner */
+.banner_zong{
+	float: left;
+height: 506px;
+}
+	/* <!-- banner_left --> */
+.banner_left{
+width: 915px;
+height: 506px;
+position: relative;
+overflow: hidden;
+}
+.banner_left_ul{
+/* 	width: 2745px; */
+	position: absolute;
+	top: 0;left: 0;
+}
+.banner_left_ul li{
+float: left;
+cursor: pointer;
+width: 915px;
+height: 506px;
+}
+.left,.right{
+	cursor: pointer;
+		position: absolute;
+		top: 230px;
+		width: 50px;
+		height: 100px;
+		font-size: 48px;
+		color: #fff;
+		text-align: center;
+		line-height: 100px;
+		background: rgba(0,0,0,.5);
+	}
+	.left {
+		left: 0px;
+	}
+	.right {
+		right:5px;
+	}
+.active{
+	background-color: orange;
+}
+.button div{
+		margin-right: 20px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	border-radius:50%;
+	border: 2px solid #fff;
+
+}
+.button{
+width: 200px;
+height: 20px;
+position: absolute;
+bottom: 10px;
+left: 100px;
+
+}
+
+	/* <!-- banner_right --> */
+.banner_right{
+	cursor: pointer;
+	width: 270px;
+	height: 506px;
+	border: 1px solid rgba(0, 0, 0, .3);
+	padding: 5px;
+	box-sizing: border-box;
+	float: right;
+	margin-top: -506px;
+	}
+.banner_right_ul{
+	width: 270px;
+	height: 506px;
+}
+.banner_right_ul li{
+	line-height:25px;
+}
+
+	.tables{
+		height: 45px;
+		width: 100%;
+		float: left;
+	}
+.tables h3{
+	color: #FC8AA6;
+	float: left;
+line-height: 45px;
+}
+.tables span{
+	float: right;
+	font-size: 12px;
+	color: rgba(0, 0, 0, .4);
+	margin-top: -0px;
+	line-height: 45px;
+	margin-right: 10px;
+}
+.banner_right_ul li:hover{
+	color:#FF00CC ;
+}
+/* <!-- 婚庆公司 --> */
+.hungong{
+	cursor: pointer;
+	position: absolute;
+	top:668px ;
+height: 265px;
+}
+/* <!-- 婚庆公司_top--> */
+.hungong_top{
+border-left: 2px solid #FB4E7E;
+width: 100%;
+height: 26px;
+padding-left: 10px;
+box-sizing: border-box;
+}
+.hungong_top h3{
+color: #FB4E7E;
+line-height: 26px;
+}
+/* 	<!-- 婚庆公司_bottom--> */
+.hungong_bottom{
+	margin-top: 10px;
+	width: 100%;
+ height: 218px;
+}
+.hungong_bottom_ul{
+	width: 100%;
+ height: 218px;
+}
+.hungong_bottom_ul li{
+	width: 175px;
+	height: 95px;
+	border: 2px solid #FB4E7E;
+  float: left;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+.hungong_bottom_ul li img{
+	width: 175px;
+	height: 95px;
+}
+.hungong_bottom_ul .kjk{
+	margin-right: 0px;
+}
+/* <!-- 纱 庆 征 情 --> */
+.hunying{
+	height: 865px;
+	position: absolute;
+	top:950px ;
+}
+.hunying_ul{
+	height: 865px;
+	width: 100%;
+}
+.hunying_ul li{
+	width: 570px;
+	height: 405px;
+	float: left;
+/* 	margin-right: 80px; */
+}
+.hunying_ul .asdc{
+	float: right;
+}
+
+/* <!-- hunying_ul_sha_top --> */
+.hunying_ul_sha_top{
+border-left: 2px solid #FB4E7E;
+width: 100%;
+height: 26px;
+padding-left: 10px;
+box-sizing: border-box;
+}
+.hunying_ul_sha_top h3{
+color: #FB4E7E;
+line-height: 26px;
+}
+/* <!-- hunying_ul_sha_bottom --> */
+.hunying_ul_sha_bottom{
+	margin-top: 10px;
+	width: 555px;
+	height: 350px;
+}
+/* <!-- hunying_ul_sha_bottom_left --> */
+.hy_ul_sa_bm_lt{
+	margin-right: 10px;
+	width: 232px;
+	height: 350px;
+		float: left;
+}
+/* <!-- hunying_ul_sha_bottom_right --> */
+.hy_ul_sa_bm_rt{
+	width: 310px;
+	height: 350px;
+	float: left;
+}
+/* <!-- hunying_ul_sha_bottom_right_top --> */
+.hy_ul_sa_bm_rt_tp p{
+font-size: 12px;
+line-height: 30px;
+color: rgba(0, 0, 0, 0.4);
+}
+.hy_ul_sa_bm_rt_tp .you{
+line-height: 15px;
+}
+.hy_ul_sa_bm_rt_tp h3{
+text-align: center;
+color: #FB4E7E;
+line-height: 15px;
+margin-bottom: 10px;
+}
+/* <!-- hunying_ul_sha_bottom_right_bottom --> */
+.hy_ul_sa_bm_rt_bm{
+	width: 100%;
+	height: 120px;
+}
+.hy_ul_sa_bm_rt_bm ul{
+	width: 100%;
+	height: 120px;
+}
+.hy_ul_sa_bm_rt_bm ul li{
+	width: 89px;
+	height: 120px;
+	float: left;
+	margin-right: 20px;
+}
+.hy_ul_sa_bm_rt_bm ul .eluos{
+	margin-right: 0px;
+}
+.hy_ul_sa_bm_rt_bm ul li img{
+width: 100%;
+	height: 90px;
+}
+.hy_ul_sa_bm_rt_bm ul li p{
+	font-size: 12px;
+	color: rgba(0, 0, 0, .4);
+	text-align: center;
+}
+.hy_ul_sa_bm_rt_bm ul li p:hover{
+	color:#FB4E7E;
+}
+/* <!-- 婚纱影楼 --> */
+.hunlou{
+	height: 645px;
+	position: absolute;
+	top:1815px ;
+}
+
+/* <!-- 婚纱影楼 _top--> */
+.hunlou_top{
+border-left: 2px solid #FB4E7E;
+width: 100%;
+height: 26px;
+padding-left: 10px;
+box-sizing: border-box;
+color: #FB4E7E;
+}
+/* <!-- 婚纱影楼_bottom --> */
+.hunlou_bottom{
+	width: 100%;
+	float: left;
+height: 600px;
+}
+/* <!-- 婚纱影楼 _bottom_left--> */
+.hunlou_left{
+	width: 910px;
+	height: 100%;
+}
+.hunlou_left ul{
+	width: 910px;
+	height: 100%;
+}
+.hunlou_left ul li{
+	float: left;
+	margin-right: 15px;
+	width: 213px;
+	height: 280px;
+	margin-bottom: 20px;
+}
+.hunlou_left ul .opi{
+	margin-right: 0px;
+}
+/* <!-- 婚纱影楼_bottom_right--> */
+.hunlou_right{
+	float: right;
+	width: 280px;
+  height: 100%;
+}
+/* <!-- 婚纱影楼_bottom_right_top--> */
+.hunlou_right_top{
+	margin-bottom: 20px;
+height: 290px;
+width: 100%;
+}
+.hunlou_right_top ul{
+margin-top:-600px ;
+height: 290px;
+width: 100%;
+}
+.hunlou_right_top ul li{
+line-height: 30px;
+}
+.hunlou_right_top ul li:hover{
+	color:#FB4E7E; 
+}
+.hunlou_right_top ul .tabler{
+	width: 100%;
+	height: 35px;
+margin-bottom: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+.hunlou_right_top ul .tabler h3{
+	width: 108px;
+	height: 100%;
+	color: #FB4E7E;
+	border-bottom: 1px solid #FB4E7E;
+	line-height: 35px;
+}
+.hunlou_right_top ul .tabler span{
+	float: right;
+	width: 30px;
+	height: 100%;
+	font-size: 12px;
+	margin-top:-30px;
+	line-height: 35px;
+}
+/* <!-- 婚纱影楼_bottom_right_bottom--> */
+.hunlou_right_bottom{
+height: 290px;
+width: 100%;
+}
+.hunlou_right_bottom ul{
+/* margin-top:-600px ; */
+height: 290px;
+width: 100%;
+}
+.hunlou_right_bottom ul li{
+line-height: 27px;
+}
+.hunlou_right_bottom ul li:hover{
+	color:#FB4E7E; 
+}
+.hunlou_right_bottom ul .tablers{
+	width: 100%;
+	height: 35px;
+margin-bottom: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+.hunlou_right_bottom ul .tablers h3{
+	width: 108px;
+	height: 100%;
+	color: #FB4E7E;
+	border-bottom: 1px solid #FB4E7E;
+	line-height: 35px;
+}
+.hunlou_right_bottom ul .tablers span{
+	float: right;
+	width: 30px;
+	height: 100%;
+	font-size: 12px;
+	margin-top:-30px;
+	line-height: 35px;
+}
+
+/* <!-- 幸福瞬间 --> */
+.shujian{
+height: 770px;
+position: absolute;
+	top:2460px ;
+}
+/* <!-- 幸福瞬间_top--> */
+.shujian_top{
+border-left: 2px solid #FB4E7E;
+width: 100%;
+height: 26px;
+padding-left: 10px;
+box-sizing: border-box;
+margin-bottom: 20px;
+color: #FB4E7E;
+}
+/* 	<!-- 幸福瞬间_bottom--> */
+.shujian ul{
+	height: 725px;
+  width: 100%;
+}
+.shujian ul li{
+	float: left;
+	margin-right: 15px;
+}
+.shujian ul .opead{
+margin-right:0px;
+}
+.shujian ul .fgh{
+	margin-top: -202px;
+}
+
+/* <!-- footer --> */
+footer{
+	width: 100%;
+	height: 280px;
+	position: absolute;
+	top: 3250px;
+}
+.foot{
+	width: 100%;
+	height: 280px;
+	background-color: rgba(0, 0, 0, .1);
+	padding-top: 40px;
+
+}
+.foot p{
+	text-align: center;
+	color: rgba(0, 0, 0, .3);
+	margin-bottom: 5px;
+	font-size: 15px;
+}
